@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SecretNotesApp</string>
+
+    <string name="title">Judul</string>
+    <string name="description">Isi</string>
+    <string name="submit">Submit</string>
+    <string name="delete">Hapus</string>
+    <string name="date">Date</string>
+    <string name="char_count">%s/5000</string>
+
+
+    <string name="cancel">Batal</string>
+    <string name="empty">Judul harus diisi</string>
+    <string name="update">Update</string>
+    <string name="change">Ubah</string>
+    <string name="add">Tambah</string>
+    <string name="save">Simpan</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="message_cancel">Apakah anda ingin membatalkan perubahan pada catatan ini?</string>
+    <string name="message_delete">Apakah anda yakin ingin menghapus catatan ini?</string>
+    <string name="added">Satu catatan berhasil ditambahkan</string>
+    <string name="changed">Satu catatan berhasil diubah</string>
+    <string name="deleted">Satu catatan berhasil dihapus</string>
+    <string name="empty_note">Anda belum memiliki catatan</string>
+    <string name="count_hint">0/5000</string>
+    <string name="search">Cari</string>
+    <string name="add_note">Add Note</string>
+</resources>
