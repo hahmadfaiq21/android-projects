@@ -67,7 +67,8 @@ class MainActivity : AppCompatActivity() {
             return@setOnEditorActionListener when (i) {
                 EditorInfo.IME_ACTION_SEARCH -> {
                     val query = binding?.etQuery?.text.toString()
-                    mainViewModel.searchNote(query).observe(this){
+                    val searchQuery = "%$query%"
+                    mainViewModel.searchNote(searchQuery).observe(this){
                         adapter.setListNotes(it)
                     }
                     hideKeyboard()
