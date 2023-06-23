@@ -3,6 +3,7 @@
 ![Intro](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/2bf8a397-f755-4338-803e-12f8f9037c7d)
 
 During Google I/O 2017 the Room Persistence Library was announced. Room is a new library built into Android that provides an abstraction on top of SQLite to allow easier database access without losing SQLite's functionality.
+
 You can learn more about Room Persistence Library on:
 https://developer.android.com/training/data-storage/room
 
