@@ -12,3 +12,7 @@ SQLite built into Android is also susceptible to client-side SQL injection attac
 
 This project is based on Medium.com article, written by Matthew Dolan
 https://appmattus.medium.com/android-security-sql-injection-with-the-room-persistence-library-69f4e286960f
+
+# User Interface of Secret Notes App
+
+![Screenshot 2023-06-23 073319](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/8a00c935-5a17-40b4-8f6d-95bc2315035c)
