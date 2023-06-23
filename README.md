@@ -5,6 +5,8 @@
 During Google I/O 2017 the Room Persistence Library was announced. Room is a new library built into Android that provides an abstraction on top of SQLite to allow easier database access without losing SQLite's functionality. You can learn more about Room Persistence Library on:
 https://developer.android.com/training/data-storage/room
 
+![image](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/3b9e548e-c8ae-4832-b030-11c46e01bbb4)
+
 On the other hand, SQL injection attacks are well documented on the web, indeed, OWASP rank injection as their number 1 security concern in 2017. 
 SQLite built into Android is also susceptible to client-side SQL injection attacks, putting any data you store locally at risk.
 
