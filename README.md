@@ -37,5 +37,5 @@ Then, Create a note and PIN numbers.
 After that, type ' or 'x' = 'x then click search button on the keyboard bar
 ![WhatsApp Image 2023-06-25 at 11 20 265](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/015531ea-2b49-41dd-871d-2fe91e375cd0)
 
-Finally, you can see the content of note without open the PIN numbers.
+Finally, you can see content of the note without entering PIN numbers.
 ![WhatsApp Image 2023-06-25 at 11 20 264](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/f29ec6ef-2792-4e91-b845-557adc5942a7)
