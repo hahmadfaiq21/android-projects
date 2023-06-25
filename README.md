@@ -22,4 +22,4 @@ https://appmattus.medium.com/android-security-sql-injection-with-the-room-persis
 ![Untitled-1](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/a41d6046-7a54-434f-bb62-757897146ea2)
 
 
-NB: The height of RecyclerView have to be adjusted to the devices.
+NB: Height of RecyclerView have to be adjusted to devices.
