@@ -25,7 +25,7 @@ https://appmattus.medium.com/android-security-sql-injection-with-the-room-persis
 NB: Height of RecyclerView have to be adjusted to devices.
 
 
-# How SQL Injection's Work to This Project
+# How SQL injection Works in This App
 
 First, we have to create a New Note with Add Note Button.
 ![WhatsApp Image 2023-06-25 at 11 20 25](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/3842eba7-596f-4e41-811c-96b4bd4b9a8a)
@@ -34,7 +34,7 @@ Then, Create a note and PIN numbers.
 ![WhatsApp Image 2023-06-25 at 11 20 252](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/7cb5aa24-eac5-4915-b797-193f2b6a6683)
 ![WhatsApp Image 2023-06-25 at 11 20 263](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/28860991-aca1-4a80-b4fa-6785d7c0d281)
 
-After that, type ' or 'x' = 'x then click search button on the keyboard bar
+After that, type ' or 'x' = 'x then click Search Button on the keyboard bar.
 ![WhatsApp Image 2023-06-25 at 11 20 265](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/015531ea-2b49-41dd-871d-2fe91e375cd0)
 
 Finally, you can see content of the note without entering PIN numbers.
