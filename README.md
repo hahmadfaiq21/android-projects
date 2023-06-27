@@ -28,7 +28,7 @@ NB: Height of RecyclerView have to be adjusted to devices.
 # How SQL injection Works in This App
 
 First, we have to create a New Note with Add Note Button.
-![WhatsApp Image 2023-06-25 at 11 20 25](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/3842eba7-596f-4e41-811c-96b4bd4b9a8a)-{width=50%}
+![WhatsApp Image 2023-06-25 at 11 20 25](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/3842eba7-596f-4e41-811c-96b4bd4b9a8a)
 
 Then, Create a note and PIN numbers.
 ![WhatsApp Image 2023-06-25 at 11 20 252](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/7cb5aa24-eac5-4915-b797-193f2b6a6683)
