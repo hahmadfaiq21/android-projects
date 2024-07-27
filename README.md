@@ -24,17 +24,17 @@ NB: Height of RecyclerView have to be adjusted to devices.
 # How SQL injection Works in This App
 
 First, we have to create a New Note with Add Note Button. <br>
-<img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/3842eba7-596f-4e41-811c-96b4bd4b9a8a" width="400">
+<img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/3842eba7-596f-4e41-811c-96b4bd4b9a8a" width="360">
 
 Then, Create a note and PIN numbers. <br>
-<img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/7cb5aa24-eac5-4915-b797-193f2b6a6683" width="400"> <br>
-<img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/28860991-aca1-4a80-b4fa-6785d7c0d281" width="400"> <br>
+<img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/7cb5aa24-eac5-4915-b797-193f2b6a6683" width="360">
+<img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/28860991-aca1-4a80-b4fa-6785d7c0d281" width="360"> <br>
 
 After that, type ' or 'x' = 'x then click Search Button on the keyboard bar. <br>
-<img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/015531ea-2b49-41dd-871d-2fe91e375cd0" width="400"> <br>
+<img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/015531ea-2b49-41dd-871d-2fe91e375cd0" width="360"> <br>
 
 Finally, you can see content of the note without entering PIN numbers. <br>
-<img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/f29ec6ef-2792-4e91-b845-557adc5942a7" width="400"> <br>
+<img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/f29ec6ef-2792-4e91-b845-557adc5942a7" width="360"> <br>
 
 This project is based on Medium.com article, written by Matthew Dolan <br>
 https://appmattus.medium.com/android-security-sql-injection-with-the-room-persistence-library-69f4e286960f
