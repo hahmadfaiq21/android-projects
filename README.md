@@ -36,5 +36,5 @@ After that, type ' or 'x' = 'x then click Search Button on the keyboard bar.
 Finally, you can see content of the note without entering PIN numbers.
 ![WhatsApp Image 2023-06-25 at 11 20 264](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/f29ec6ef-2792-4e91-b845-557adc5942a7)
 
-This project is based on Medium.com article, written by Matthew Dolan
+This project is based on Medium.com article, written by Matthew Dolan <br>
 https://appmattus.medium.com/android-security-sql-injection-with-the-room-persistence-library-69f4e286960f
