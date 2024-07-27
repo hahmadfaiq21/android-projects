@@ -1,3 +1,4 @@
+<p align="center">
 # SQL injection with the Room Persistence Library
 
 ![Intro](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/2bf8a397-f755-4338-803e-12f8f9037c7d)
@@ -35,6 +36,6 @@ After that, type ' or 'x' = 'x then click **Search Button on the keyboard bar**.
 
 Finally, you can see content of the note without entering PIN numbers. <br>
 <img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/f29ec6ef-2792-4e91-b845-557adc5942a7" width="360"> <br>
-
-This project is based on Medium.com article, written by Matthew Dolan <br>
+</p>
+This project is based on Medium.com article, written by Matthew Dolan: <br>
 https://appmattus.medium.com/android-security-sql-injection-with-the-room-persistence-library-69f4e286960f
