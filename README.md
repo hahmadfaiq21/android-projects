@@ -1,4 +1,4 @@
-<p align="center">
+
   
 # SQL injection with the Room Persistence Library
 
@@ -24,7 +24,7 @@ NB: Height of RecyclerView have to be adjusted to devices.
 
 
 # How SQL injection Works in This App
-
+<p align="center">
 First, we have to create a New Note with Add Note Button. <br>
 <img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/3842eba7-596f-4e41-811c-96b4bd4b9a8a" width="360">
 
