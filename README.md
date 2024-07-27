@@ -27,14 +27,15 @@ NB: Height of RecyclerView have to be adjusted to devices.
 <p align="center">
 First, we have to create a New Note with Add Note Button. <br>
 <img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/3842eba7-596f-4e41-811c-96b4bd4b9a8a" width="360">
-
+</p>
+<p align="center">
 Then, Create a note and PIN numbers. <br>
 <img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/7cb5aa24-eac5-4915-b797-193f2b6a6683" width="360">
 <img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/28860991-aca1-4a80-b4fa-6785d7c0d281" width="360"> <br>
-
+</p>
 After that, type ' or 'x' = 'x then click **Search Button on the keyboard bar**. <br>
 <img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/015531ea-2b49-41dd-871d-2fe91e375cd0" width="360"> <br>
-
+<p align="center">
 Finally, you can see content of the note without entering PIN numbers. <br>
 <img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/f29ec6ef-2792-4e91-b845-557adc5942a7" width="360"> <br>
 </p>
