@@ -13,10 +13,6 @@ https://developer.android.com/training/data-storage/room
 On the other hand, SQL injection attacks are well documented on the web, indeed, OWASP rank injection as their number 1 security concern in 2017. 
 SQLite built into Android is also susceptible to client-side SQL injection attacks, putting any data you store locally at risk. It would be interesting to look at Room to see if it is possible to perform SQL injection attacks when using it.
 
-This project is based on Medium.com article, written by Matthew Dolan
-
-https://appmattus.medium.com/android-security-sql-injection-with-the-room-persistence-library-69f4e286960f
-
 # User Interface and Feature of Secret Notes
 
 ![Untitled-1](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/a41d6046-7a54-434f-bb62-757897146ea2)
@@ -39,3 +35,6 @@ After that, type ' or 'x' = 'x then click Search Button on the keyboard bar.
 
 Finally, you can see content of the note without entering PIN numbers.
 ![WhatsApp Image 2023-06-25 at 11 20 264](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/f29ec6ef-2792-4e91-b845-557adc5942a7)
+
+This project is based on Medium.com article, written by Matthew Dolan
+https://appmattus.medium.com/android-security-sql-injection-with-the-room-persistence-library-69f4e286960f
