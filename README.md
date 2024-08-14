@@ -19,7 +19,7 @@ SQLite built into Android is also susceptible to client-side SQL injection attac
 
 ![Untitled-1](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/a41d6046-7a54-434f-bb62-757897146ea2)
 
-User Interface (UI) Design: <br>
+User Interface (UI) design link: <br>
 https://www.figma.com/design/6ZlyeTgwAIpGikScmToGjO/SecretNotesApp?node-id=0-1&m=dev&t=yLPFY6iwxsKoRwOo-1
 <br>
 
