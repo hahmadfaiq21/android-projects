@@ -34,7 +34,7 @@ Then, Create a note and PIN numbers. <br>
 <img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/28860991-aca1-4a80-b4fa-6785d7c0d281" width="360"> <br>
 </p>
 <p align="center">
-After that, type ' or 'x' = 'x then click **Search Button on the keyboard bar**. <br>
+After that, type ' or 'x' = 'x then click __Search Button on the keyboard bar__. <br>
 <img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/015531ea-2b49-41dd-871d-2fe91e375cd0" width="360"> <br>
 </p>
 <p align="center">
