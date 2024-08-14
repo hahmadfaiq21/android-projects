@@ -42,7 +42,7 @@ Finally, you can see content of the note without entering PIN numbers. <br>
 <img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/f29ec6ef-2792-4e91-b845-557adc5942a7" width="360"> <br>
 </p>
 
-User Interface Design:<br>
+User Interface (UI) Design: <br>
 https://www.figma.com/design/6ZlyeTgwAIpGikScmToGjO/SecretNotesApp?node-id=0-1&m=dev&t=yLPFY6iwxsKoRwOo-1
 <br>
 
