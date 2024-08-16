@@ -68,7 +68,6 @@ class MainActivity : AppCompatActivity() {
                 adapter.setListNotes(it)
             }
             binding?.coordinatorLayout?.visibility = View.VISIBLE
-            binding?.scrollView?.visibility = View.GONE
             isNoteEmpty(false)
             hideKeyboard()
         }
@@ -84,7 +83,6 @@ class MainActivity : AppCompatActivity() {
                                 adapter.setListNotes(it)
                             }
                             binding?.coordinatorLayout?.visibility = View.VISIBLE
-                            binding?.scrollView?.visibility = View.GONE
                             isNoteEmpty(false)
                             hideKeyboard()
                         }
@@ -105,10 +103,8 @@ class MainActivity : AppCompatActivity() {
                                             """.trimIndent()
                                 cursor.moveToNext()
                             }
-                            binding?.resultHint?.text = result
                             cursor.close()
                             binding?.coordinatorLayout?.visibility = View.GONE
-                            binding?.scrollView?.visibility = View.VISIBLE
                             isNoteEmpty(false)
                             hideKeyboard()
                         }

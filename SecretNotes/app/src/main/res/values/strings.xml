@@ -21,6 +21,7 @@
     <string name="changed">One note changed successfully</string>
     <string name="deleted">One note deleted successfully</string>
     <string name="empty_note">You don\'t have any notes yet</string>
+    <string name="note_not_found">Note not found</string>
     <string name="wrong_pin">Sorry, the PIN you entered is incorrect!</string>
     <string name="count_hint">0/5000</string>
     <string name="search">Search</string>
