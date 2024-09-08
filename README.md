@@ -8,7 +8,7 @@ During Google I/O 2017 the Room Persistence Library was announced. Room is a new
 https://developer.android.com/training/data-storage/room.
 
 <p align="center">
-<img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/3b9e548e-c8ae-4832-b030-11c46e01bbb4" width="720">
+<img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/3b9e548e-c8ae-4832-b030-11c46e01bbb4" width="1080">
 </p>
 
 On the other hand, SQL injection attacks are well documented on the web, indeed, OWASP rank injection as their number 1 security concern in 2017. 
