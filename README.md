@@ -8,8 +8,9 @@ During Google I/O 2017 the Room Persistence Library was announced. Room is a new
 https://developer.android.com/training/data-storage/room.
 
 <p align="center">
-![image](https://github.com/hahmadfaiq21/mobile-security/assets/74751720/3b9e548e-c8ae-4832-b030-11c46e01bbb4)
+<img src="https://github.com/hahmadfaiq21/mobile-security/assets/74751720/3b9e548e-c8ae-4832-b030-11c46e01bbb4" width="720">
 </p>
+
 On the other hand, SQL injection attacks are well documented on the web, indeed, OWASP rank injection as their number 1 security concern in 2017. 
 SQLite built into Android is also susceptible to client-side SQL injection attacks, putting any data you store locally at risk. It would be interesting to look at Room to see if it is possible to perform SQL injection attacks when using it.
 
