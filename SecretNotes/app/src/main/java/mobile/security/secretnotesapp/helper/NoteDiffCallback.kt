@@ -3,7 +3,8 @@ package mobile.security.secretnotesapp.helper
 import androidx.recyclerview.widget.DiffUtil
 import mobile.security.secretnotesapp.data.Note
 
-class NoteDiffCallback(private val mOldNoteList: List<Note>, private val mNewNoteList: List<Note>) : DiffUtil.Callback() {
+class NoteDiffCallback(private val mOldNoteList: List<Note>, private val mNewNoteList: List<Note>) :
+    DiffUtil.Callback() {
     override fun getOldListSize(): Int {
         return mOldNoteList.size
     }

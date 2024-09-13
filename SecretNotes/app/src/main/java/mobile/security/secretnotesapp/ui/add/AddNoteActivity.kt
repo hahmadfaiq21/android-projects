@@ -3,10 +3,7 @@ package mobile.security.secretnotesapp.ui.add
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
-import android.content.pm.ActivityInfo
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -14,6 +11,7 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.widget.addTextChangedListener
 import androidx.lifecycle.ViewModelProvider
 import mobile.security.secretnotesapp.R
 import mobile.security.secretnotesapp.data.Note
@@ -38,23 +36,13 @@ class AddNoteActivity : AppCompatActivity() {
         _activityNoteAddUpdateBinding = ActivityAddNoteBinding.inflate(layoutInflater)
         setContentView(binding?.root)
 
-        this.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_LOCKED
-
         addNoteViewModel = obtainViewModel(this@AddNoteActivity)
 
-        binding?.edtContent?.addTextChangedListener(object : TextWatcher {
-            override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {
-                // Do nothing.
-            }
+        binding?.edtContent?.addTextChangedListener {
+            binding?.charCount?.text =
+                resources.getString(R.string.char_count, it?.length.toString())
+        }
 
-            override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {
-                binding?.charCount?.text = resources.getString(R.string.char_count, s.length.toString())
-            }
-
-            override fun afterTextChanged(s: Editable) {
-                // Do nothing.
-            }
-        })
         note = intent.getParcelableExtra(EXTRA_EDIT_NOTE)
         if (note != null) {
             isEdit = true
@@ -116,6 +104,7 @@ class AddNoteActivity : AppCompatActivity() {
             title.isEmpty() -> {
                 binding?.edtTitle?.error = getString(R.string.empty)
             }
+
             else -> {
                 note.let { note ->
                     note?.title = title
@@ -171,7 +160,7 @@ class AddNoteActivity : AppCompatActivity() {
                     startActivity(intent)
                     finish()
                     showToast(getString(R.string.deleted))
-                }else {
+                } else {
                     val intent = Intent(this@AddNoteActivity, MainActivity::class.java)
                     startActivity(intent)
                     finish()

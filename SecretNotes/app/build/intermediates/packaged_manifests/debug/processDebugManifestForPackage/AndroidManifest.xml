@@ -29,14 +29,17 @@
         android:theme="@style/Theme.SecretNotesApp" >
         <activity
             android:name="mobile.security.secretnotesapp.ui.pin.PinActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="mobile.security.secretnotesapp.ui.add.AddNoteActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait" />
         <activity
             android:name="mobile.security.secretnotesapp.ui.main.MainActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

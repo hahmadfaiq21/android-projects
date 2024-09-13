@@ -7,7 +7,8 @@ import mobile.security.secretnotesapp.ui.add.AddNoteViewModel
 import mobile.security.secretnotesapp.ui.main.MainViewModel
 import mobile.security.secretnotesapp.ui.pin.PinViewModel
 
-class ViewModelFactory private constructor(private val mApplication: Application) : ViewModelProvider.NewInstanceFactory() {
+class ViewModelFactory private constructor(private val mApplication: Application) :
+    ViewModelProvider.NewInstanceFactory() {
 
     companion object {
         @Volatile

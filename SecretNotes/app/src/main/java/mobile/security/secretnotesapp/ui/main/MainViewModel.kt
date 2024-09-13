@@ -16,12 +16,12 @@ class MainViewModel(application: Application) : ViewModel() {
 
     fun deleteNote(note: Note) {
         mNoteRepository.delete(note)
-        _snackbarText.value = Event(R.string.deleted)
+        _snackBarText.value = Event(R.string.deleted)
         _undo.value = Event(note)
     }
 
-    private val _snackbarText = MutableLiveData<Event<Int>>()
-    val snackbarText: LiveData<Event<Int>> = _snackbarText
+    private val _snackBarText = MutableLiveData<Event<Int>>()
+    val snackBarText: LiveData<Event<Int>> = _snackBarText
 
     private val _undo = MutableLiveData<Event<Note>>()
     val undo: LiveData<Event<Note>> = _undo

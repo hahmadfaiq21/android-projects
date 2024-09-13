@@ -3,7 +3,6 @@ package mobile.security.secretnotesapp.ui.main
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
-import android.content.pm.ActivityInfo
 import android.database.Cursor
 import android.os.Bundle
 import android.view.View
@@ -37,8 +36,6 @@ class MainActivity : AppCompatActivity() {
         _activityMainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding?.root)
 
-        this.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_LOCKED
-
         noteDatabase = NoteRoomDatabase.getDatabase(this)
         val mainViewModel = obtainViewModel(this@MainActivity)
         mainViewModel.getAllNotes().observe(this) { noteList ->
@@ -49,6 +46,7 @@ class MainActivity : AppCompatActivity() {
                 isNoteEmpty(true)
             }
         }
+
         adapter = MainAdapter()
 
         binding?.rvNotes?.layoutManager = GridLayoutManager(this, 2)
@@ -166,7 +164,7 @@ class MainActivity : AppCompatActivity() {
                 val note = (viewHolder as MainAdapter.NoteViewHolder).getNote
                 val mainViewModel = obtainViewModel(this@MainActivity)
                 mainViewModel.deleteNote(note)
-                mainViewModel.snackbarText.observe(this@MainActivity) {
+                mainViewModel.snackBarText.observe(this@MainActivity) {
                     showSnackBar(it)
                 }
             }

@@ -35,7 +35,8 @@ class MainAdapter : RecyclerView.Adapter<MainAdapter.NoteViewHolder>() {
         return listNotes.size
     }
 
-    inner class NoteViewHolder(private val binding: ItemNoteBinding) : RecyclerView.ViewHolder(binding.root) {
+    inner class NoteViewHolder(private val binding: ItemNoteBinding) :
+        RecyclerView.ViewHolder(binding.root) {
         lateinit var getNote: Note
         fun bind(note: Note) {
             getNote = note

@@ -18,8 +18,10 @@ abstract class NoteRoomDatabase : RoomDatabase() {
         fun getDatabase(context: Context): NoteRoomDatabase {
             if (INSTANCE == null) {
                 synchronized(NoteRoomDatabase::class.java) {
-                    INSTANCE = Room.databaseBuilder(context.applicationContext,
-                        NoteRoomDatabase::class.java, "note_database")
+                    INSTANCE = Room.databaseBuilder(
+                        context.applicationContext,
+                        NoteRoomDatabase::class.java, "note_database"
+                    )
                         .allowMainThreadQueries()
                         .fallbackToDestructiveMigration()
                         .build()

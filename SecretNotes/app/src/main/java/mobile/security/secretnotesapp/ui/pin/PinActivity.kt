@@ -1,7 +1,6 @@
 package mobile.security.secretnotesapp.ui.pin
 
 import android.content.Intent
-import android.content.pm.ActivityInfo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
@@ -15,6 +14,7 @@ import mobile.security.secretnotesapp.helper.DateHelper
 import mobile.security.secretnotesapp.helper.ViewModelFactory
 import mobile.security.secretnotesapp.ui.add.AddNoteActivity
 import mobile.security.secretnotesapp.ui.main.MainActivity
+
 
 @Suppress("DEPRECATION")
 class PinActivity : AppCompatActivity() {
@@ -30,8 +30,6 @@ class PinActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         _activityPinBinding = ActivityPinBinding.inflate(layoutInflater)
         setContentView(binding?.root)
-
-        this.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_LOCKED
 
         pinViewModel = obtainViewModel(this@PinActivity)
         note = intent.getParcelableExtra(EXTRA_NOTE)
@@ -113,9 +111,10 @@ class PinActivity : AppCompatActivity() {
         return ViewModelProvider(activity, factory)[PinViewModel::class.java]
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         super.onBackPressed()
-        if(isEdit){
+        if (isEdit) {
             val intent = Intent(this@PinActivity, MainActivity::class.java)
             startActivity(intent)
             finish()
