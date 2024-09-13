@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue_200">#74DBEF</color>
+    <color name="blue_500">#0074E4</color>
+    <color name="blue_700">#264E86</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add">Add</string>
+    <string name="add_note">Add Note</string>
+    <string name="added">One note added successfully</string>
+    <string name="app_name">Secret Notes</string>
+    <string name="cancel">Cancel</string>
+    <string name="change">Change</string>
+    <string name="changed">One note changed successfully</string>
+    <string name="char_count">%s/5000</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="count_hint">0/5000</string>
+    <string name="date">Date</string>
+    <string name="delete">Delete</string>
+    <string name="deleted">One note deleted successfully</string>
+    <string name="description">Content</string>
+    <string name="empty">Title must be filled</string>
+    <string name="empty_note">You don\'t have any notes yet</string>
+    <string name="message_cancel">Do you want to cancel the changes to this note?</string>
+    <string name="message_delete">Are you sure you want to delete this note?</string>
+    <string name="no">No</string>
+    <string name="note_not_found">Note not found</string>
+    <string name="pin_hint">Enter PIN:</string>
+    <string name="save">Save</string>
+    <string name="search">Search</string>
+    <string name="submit">Submit</string>
+    <string name="title">Title</string>
+    <string name="update">Update</string>
+    <string name="wrong_pin">Sorry, the PIN you entered is incorrect!</string>
+    <string name="yes">Yes</string>
+    <style name="Theme.SecretNotesApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryVariant">@color/blue_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/blue_500</item>
+        <item name="colorSecondaryVariant">@color/blue_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

@@ -51,20 +51,20 @@ class MainActivity : AppCompatActivity() {
         }
         adapter = MainAdapter()
 
-        binding?.rvNotes?.layoutManager = GridLayoutManager(this,2)
+        binding?.rvNotes?.layoutManager = GridLayoutManager(this, 2)
         binding?.rvNotes?.setHasFixedSize(true)
         binding?.rvNotes?.adapter = adapter
 
         binding?.btnAddNote?.setOnClickListener {
-                val intent = Intent(this@MainActivity, AddNoteActivity::class.java)
-                startActivity(intent)
-                finish()
+            val intent = Intent(this@MainActivity, AddNoteActivity::class.java)
+            startActivity(intent)
+            finish()
         }
 
         binding?.btnSearch?.setOnClickListener {
             val query = binding?.etQuery?.text.toString()
             val searchQuery = "%$query%"
-            mainViewModel.searchNote(searchQuery).observe(this){
+            mainViewModel.searchNote(searchQuery).observe(this) {
                 adapter.setListNotes(it)
             }
             binding?.coordinatorLayout?.visibility = View.VISIBLE
@@ -76,19 +76,23 @@ class MainActivity : AppCompatActivity() {
             return@setOnEditorActionListener when (i) {
                 EditorInfo.IME_ACTION_SEARCH -> {
                     val query = textView.text.toString()
-                    when (isValidSearch(query)){
+                    when (isValidSearch(query)) {
                         true -> {
                             val searchQuery = "%$query%"
-                            mainViewModel.searchNote(searchQuery).observe(this){
+                            mainViewModel.searchNote(searchQuery).observe(this) {
                                 adapter.setListNotes(it)
                             }
                             binding?.coordinatorLayout?.visibility = View.VISIBLE
                             isNoteEmpty(false)
                             hideKeyboard()
                         }
+
                         false -> {
                             val searchQuery = "%$query%"
-                            val cursor: Cursor = noteDatabase.query("SELECT * FROM note WHERE title LIKE '$searchQuery'", null)
+                            val cursor: Cursor = noteDatabase.query(
+                                "SELECT * FROM note WHERE title LIKE '$searchQuery'",
+                                null
+                            )
                             cursor.moveToFirst()
                             var result: String? = ""
                             while (!cursor.isAfterLast) {
@@ -111,6 +115,7 @@ class MainActivity : AppCompatActivity() {
                     }
                     true
                 }
+
                 else -> false
             }
         }
@@ -133,7 +138,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun isNoteEmpty(state: Boolean) {
-        if (state){
+        if (state) {
             binding?.noteHint?.visibility = View.VISIBLE
         } else {
             binding?.noteHint?.visibility = View.GONE
@@ -161,7 +166,7 @@ class MainActivity : AppCompatActivity() {
                 val note = (viewHolder as MainAdapter.NoteViewHolder).getNote
                 val mainViewModel = obtainViewModel(this@MainActivity)
                 mainViewModel.deleteNote(note)
-                mainViewModel.snackbarText.observe(this@MainActivity){
+                mainViewModel.snackbarText.observe(this@MainActivity) {
                     showSnackBar(it)
                 }
             }
@@ -176,7 +181,7 @@ class MainActivity : AppCompatActivity() {
             findViewById(R.id.coordinator_layout),
             getString(message),
             Snackbar.LENGTH_SHORT
-        ).setAction("Cancel"){
+        ).setAction("Cancel") {
             mainViewModel.insert(mainViewModel.undo.value?.getContentIfNotHandled() as Note)
         }.show()
     }
