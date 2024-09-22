@@ -31,9 +31,11 @@ id frameLayout
 id note_hint
 id pin
 id rv_notes
+id scroll_view
 id til_desc
 id tv_item_date
 id tv_item_title
+id tv_result
 layout activity_add_note
 layout activity_main
 layout activity_pin

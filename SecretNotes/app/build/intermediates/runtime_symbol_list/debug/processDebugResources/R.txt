@@ -3517,6 +3517,7 @@ int id scroll 0x7f080186
 int id scrollIndicatorDown 0x7f080187
 int id scrollIndicatorUp 0x7f080188
 int id scrollView 0x7f080189
+int id scroll_view 0x7f08020a
 int id scrollable 0x7f08018a
 int id search_badge 0x7f08018b
 int id search_bar 0x7f08018c
@@ -3621,6 +3622,7 @@ int id transition_transform 0x7f0801ee
 int id triangle 0x7f0801ef
 int id tv_item_date 0x7f0801f0
 int id tv_item_title 0x7f0801f1
+int id tv_result 0x7f08020b
 int id unchecked 0x7f0801f2
 int id uniform 0x7f0801f3
 int id unlabeled 0x7f0801f4

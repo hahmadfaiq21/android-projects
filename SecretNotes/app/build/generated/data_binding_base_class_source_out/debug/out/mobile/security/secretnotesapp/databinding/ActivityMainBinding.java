@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -46,10 +47,17 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final RecyclerView rvNotes;
 
+  @NonNull
+  public final ScrollView scrollView;
+
+  @NonNull
+  public final TextView tvResult;
+
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
       @NonNull FloatingActionButton btnAddNote, @NonNull ImageView btnSearch,
       @NonNull CoordinatorLayout coordinatorLayout, @NonNull TextInputEditText etQuery,
-      @NonNull FrameLayout frameLayout, @NonNull TextView noteHint, @NonNull RecyclerView rvNotes) {
+      @NonNull FrameLayout frameLayout, @NonNull TextView noteHint, @NonNull RecyclerView rvNotes,
+      @NonNull ScrollView scrollView, @NonNull TextView tvResult) {
     this.rootView = rootView;
     this.btnAddNote = btnAddNote;
     this.btnSearch = btnSearch;
@@ -58,6 +66,8 @@ public final class ActivityMainBinding implements ViewBinding {
     this.frameLayout = frameLayout;
     this.noteHint = noteHint;
     this.rvNotes = rvNotes;
+    this.scrollView = scrollView;
+    this.tvResult = tvResult;
   }
 
   @Override
@@ -129,8 +139,20 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.scroll_view;
+      ScrollView scrollView = ViewBindings.findChildViewById(rootView, id);
+      if (scrollView == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_result;
+      TextView tvResult = ViewBindings.findChildViewById(rootView, id);
+      if (tvResult == null) {
+        break missingId;
+      }
+
       return new ActivityMainBinding((ConstraintLayout) rootView, btnAddNote, btnSearch,
-          coordinatorLayout, etQuery, frameLayout, noteHint, rvNotes);
+          coordinatorLayout, etQuery, frameLayout, noteHint, rvNotes, scrollView, tvResult);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
