@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [androidx.databinding:viewbinding:8.5.2] C:\Users\hahmadfaiq21\.gradle\caches\transforms-4\c4919952933b52e733d89363778ceea4\transformed\viewbinding-8.5.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\hahmadfaiq21\.gradle\caches\transforms-4\afd39d33054809e7c3c7564cd053b96c\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hahmadfaiq21\.gradle\caches\transforms-4\e3f288e01df759b6139d429f7f691e56\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -66,8 +66,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\hahmadf
 	xmlns:android
 		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:5:5-34:19
-INJECTED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:5:5-34:19
+ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:5:5-37:19
+INJECTED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:5:5-37:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\hahmadfaiq21\.gradle\caches\transforms-4\afd39d33054809e7c3c7564cd053b96c\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\hahmadfaiq21\.gradle\caches\transforms-4\afd39d33054809e7c3c7564cd053b96c\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hahmadfaiq21\.gradle\caches\transforms-4\e3f288e01df759b6139d429f7f691e56\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -109,39 +109,45 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hahmadfaiq21\.grad
 	android:dataExtractionRules
 		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:7:9-65
 activity#mobile.security.secretnotesapp.ui.pin.PinActivity
-ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:15:9-19:20
+ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:15:9-20:20
 	android:screenOrientation
 		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:17:13-49
 	android:exported
 		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:18:13-36
+	tools:ignore
+		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:19:13-68
 	android:name
 		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:16:13-47
 activity#mobile.security.secretnotesapp.ui.add.AddNoteActivity
-ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:20:9-23:38
+ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:21:9-25:71
 	android:screenOrientation
-		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:22:13-49
+		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:23:13-49
 	android:exported
-		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:23:13-36
+		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:24:13-36
+	tools:ignore
+		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:25:13-68
 	android:name
-		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:21:13-51
+		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:22:13-51
 activity#mobile.security.secretnotesapp.ui.main.MainActivity
-ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:24:9-33:20
+ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:26:9-36:20
 	android:screenOrientation
-		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:26:13-49
+		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:28:13-49
 	android:exported
-		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:27:13-36
+		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:29:13-36
+	tools:ignore
+		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:30:13-68
 	android:name
-		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:25:13-49
+		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:27:13-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:28:13-32:29
+ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:31:17-77
+ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:31:27-74
+		ADDED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:34:27-74
 uses-sdk
 INJECTED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml

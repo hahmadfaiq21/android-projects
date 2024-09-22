@@ -20,7 +20,7 @@
 15-->[androidx.core:core:1.13.1] C:\Users\hahmadfaiq21\.gradle\caches\transforms-4\1986bac901e9c5b92f328a1cec0755cd\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:5:5-34:19
+17-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:5:5-37:19
 18        android:allowBackup="true"
 18-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -43,7 +43,7 @@
 29        android:theme="@style/Theme.SecretNotesApp" >
 29-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:13:9-52
 30        <activity
-30-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:15:9-19:20
+30-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:15:9-20:20
 31            android:name="mobile.security.secretnotesapp.ui.pin.PinActivity"
 31-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:16:13-47
 32            android:exported="true"
@@ -52,30 +52,30 @@
 33-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:17:13-49
 34        </activity>
 35        <activity
-35-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:20:9-23:38
+35-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:21:9-25:71
 36            android:name="mobile.security.secretnotesapp.ui.add.AddNoteActivity"
-36-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:21:13-51
+36-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:22:13-51
 37            android:exported="true"
-37-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:23:13-36
+37-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:24:13-36
 38            android:screenOrientation="portrait" />
-38-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:22:13-49
+38-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:23:13-49
 39        <activity
-39-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:24:9-33:20
+39-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:26:9-36:20
 40            android:name="mobile.security.secretnotesapp.ui.main.MainActivity"
-40-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:25:13-49
+40-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:27:13-49
 41            android:exported="true"
-41-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:27:13-36
+41-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:29:13-36
 42            android:screenOrientation="portrait" >
-42-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:26:13-49
+42-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:28:13-49
 43            <intent-filter>
-43-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:28:13-32:29
+43-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:31:13-35:29
 44                <action android:name="android.intent.action.MAIN" />
-44-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:29:17-69
-44-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:29:25-66
+44-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:32:17-69
+44-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:32:25-66
 45
 46                <category android:name="android.intent.category.LAUNCHER" />
-46-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:31:17-77
-46-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:31:27-74
+46-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:34:17-77
+46-->C:\Users\hahmadfaiq21\AndroidStudioProjects\mobile-security\SecretNotes\app\src\main\AndroidManifest.xml:34:27-74
 47            </intent-filter>
 48        </activity>
 49

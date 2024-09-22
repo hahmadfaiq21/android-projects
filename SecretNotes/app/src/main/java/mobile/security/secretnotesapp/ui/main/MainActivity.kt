@@ -107,6 +107,8 @@ class MainActivity : AppCompatActivity() {
                             }
                             cursor.close()
                             binding?.coordinatorLayout?.visibility = View.GONE
+                            binding?.scrollView?.visibility = View.VISIBLE
+                            binding?.tvResult?.text = result
                             isNoteEmpty(false)
                             hideKeyboard()
                         }
